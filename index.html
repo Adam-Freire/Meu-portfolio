@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script defer src="js/index.js"></script>
+    
+    <title>Portifólio - Adam Freire</title>
+
+</head>
+<body>
+    <header>
+        <div class="topo limitar-secao ">
+            <div class="topo-logo">
+                <a href="index.html"><img src="assets/logo.png" alt="Logo Adam Freire"></a>
+            </div>
+
+
+            <div class="menu-mobile">
+                <span class="material-symbols-outlined" onclick="clickmenu()">menu</span> 
+                <nav id="menu" class="menu">
+                    <span class="material-symbols-outlined" onclick="clickmenu()">
+                        close
+                        </span>
+                    <ul>
+                        <li><a href="#home" class="link-menu">Home</a></li>
+                        <li><a href="#sobre" class="link-menu">Sobre</a></li>
+                        <li><a href="#skills" class="link-menu">Habilidades</a></li>
+                        <li><a href="#projetos" class="link-menu">Projetos</a></li>
+                        <li><a href="#contato" class="link-menu">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="topo-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#home" class="link-menu">Home</a></li>
+                        <li><a href="#sobre" class="link-menu">Sobre</a></li>
+                        <li><a href="#skills" class="link-menu">Habilidades</a></li>
+                        <li><a href="#projetos" class="link-menu">Projetos</a></li>
+                        <li><a href="#contato" class="link-menu">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="topo-contato">
+                    <a href="https://www.linkedin.com/in/adam-freire-6a2755239" target="_blank"> <img src="assets/icones/LinkedInblack.png" alt="logo linkedin"></a>
+                    <a href="https://github.com/Adam-Freire" target="_blank"><img src="assets/icones/github.png" alt="logo linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="limitar-secao secao-capa esconder">
+            <div class="secao-capa-texto">
+                <h1>Adam Freire.</h1>
+                <p>Desenvolvedor Front-end</p>
+                <div class="btn">
+                    <a href="https://www.linkedin.com/in/adam-freire-6a2755239" target="_blank">Linkendin</a>
+                    <a href="https://github.com/Adam-Freire" target="_blank">Git</a>
+                </div>
+            </div>    
+            <img src="assets/avatar.png" alt="avatar do site">
+
+        </section>
+
+        <section id="sobre" class="secao-sobre limitar-secao esconder">
+            <div class="sobre-texto esconder">
+                <h2>Sobre mim</h2>
+                <p>Olá, meu nome é Adam. Decidi seguir o caminho da programação e estou em busca da minha primeira oportunidade como desenvolvedor front-end.
+                    Possuo conhecimento em <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaSscript</strong> e <strong>React</strong>. Estou estudando as tecnologias voltadas para o desenvolvimento Full-stack.
+                    Sou extremamente dedicado, esforçado e tenho facilidade em aprender.
+                   </p>
+                
+                </div>
+
+                <img class="esconder"  src="assets/avatar 2.png" alt=" avatar do site">
+
+        </section>
+
+        <section id="skills" class="secao-skills limitar-secao esconder">
+            <h2>Habilidades</h2>
+
+            <div class="skills-conteudo">
+                <div class="skills esconder ">
+                    <a href="https://www.devmedia.com.br/certificado/tecnologia/html/adam-17" target="_blank">
+                        <p>HTML</p>
+                        <img  src="assets/icones/htmlblack.png" alt="logo html">
+                    </a>
+                </div>
+                <div class="skills esconder ">
+                    <a href="https://www.devmedia.com.br/certificado/tecnologia/css/adam-17" target="_blank">
+                        <p>CSS</p>
+                        <img src="assets/icones/cssblack.png" alt="logo css">
+                    </a>
+                </div>
+                <div class="skills esconder ">
+                    <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/adam-17" target="_blank">
+                        <p>JavaSscript</p>
+                        <img src="assets/icones/Javascriptblack.png" alt="logo javascript">
+                    </a>
+                </div>
+                <div class="skills esconder ">
+                    <a href="https://www.devmedia.com.br/certificado/tecnologia/react/adam-17" target="_blank">
+                        <p>React</p>
+                        <img src="assets/icones/Reactblack.png" alt="logo react">
+                    </a>
+                </div>
+                <div class="skills esconder ">
+                    <a href="https://github.com/Adam-Freire" target="_blank">
+                        <p>Git</p>
+                        <img src="assets/icones/gitblack.png" alt="logo git">
+                    </a>
+                </div>
+            </div>
+            <p class="arraste">Arraste para o lado e descubra mais!  =></p>
+        </section>
+
+        <section id="projetos" class="secao-projetos limitar-secao esconder">
+                <h2>Projetos</h2>
+                
+            <div class="container-projetos ">
+                
+                <div class="card-projetos esconder">
+                    <a href="https://sorveteria-gamma.vercel.app" target="_blank"><img src="assets/gelateria.png" alt="Site de uma gelateria"></a>
+                    <div class="card-texto">
+                        <p>Projeto criado em <strong>React</strong>.
+                        Utilizando a biblioteca <strong>React Router Dom</strong> para criar a navegação entre as páginas do site.</p>
+                    </div>
+                    <div class="card-link">
+                        <a href="https://sorveteria-gamma.vercel.app" target="_blank">Abrir projeto</a>
+                        <a href="https://github.com/Adam-Freire/gelateria" target="_blank">Repositório</a>
+                    </div>
+                </div>
+
+                <div class="card-projetos esconder">
+                    <a href="https://otica-vida-one.vercel.app" target="_blank"><img src="assets/otica-vida.png" alt=" Site de uma ótica"></a>
+                    <div class="card-texto">
+                        <p>Projeto criado em <strong>React</strong>.
+                        Utilizando os conceitos de criação, importação e exportação de um componente.</p>
+                    </div>
+                    <div class="card-link">
+                        <a href="https://otica-vida-one.vercel.app" target="_blank">Abrir projeto</a>
+                        <a href="https://github.com/Adam-Freire/otica-vida.git" target="_blank">Repositório</a>
+                    </div>
+                </div>
+
+                <div class="card-projetos esconder">
+                    <a href="https://adam-freire.github.io/Agencia-de-viagens/" target="_blank"><img src="assets/agencia.png" alt="Site de uma agencia de viagens"></a>
+                    <div class="card-texto">
+                        <p>Projeto criado com <strong>html</strong> e <strong>css</strong>
+                        utilizando formulários para enviar dados do front-end para o back-end.</p>
+                    </div>
+                    <div class="card-link">
+                        <a href="https://adam-freire.github.io/Agencia-de-viagens/" target="_blank">Abrir projeto</a>
+                        <a href="https://github.com/Adam-Freire/Agencia-de-viagens" target="_blank">Repositório</a>
+                    </div>
+                </div>
+
+                <div class="card-projetos esconder">
+                    <a href="https://adam-freire.github.io/Clinica-medica/" target="_blank"><img src="assets/clinica.png" alt="Site de uma clinica médica"></a>
+                    <div class="card-texto">
+                        <p>Projeto criado com <strong>html</strong> e <strong>css</strong> utilizando tabelas </p>
+                    </div>
+                    <div class="card-link">
+                        <a href="https://adam-freire.github.io/Clinica-medica/" target="_blank">Abrir projeto</a>
+                        <a href="https://github.com/Adam-Freire/Clinica-medica.git" target="_blank">Repositório</a>
+                    </div>
+                </div>
+                
+            </div>   
+            <p class="arraste">Arraste para o lado e descubra mais!  =></p>        
+        </section> 
+    </main>
+
+    <footer id="contato" class="contato esconder">
+            <div class="rodape limitar-secao esconder">
+                <div class="conteudo-contato">
+                    <img src="assets/icones/LinkedInblack.png" alt="icone linkedin">
+                    <a href="https://www.linkedin.com/in/adam-freire-6a2755239" target="_blank">
+                        <p>linkedin</p>
+                    </a>
+                </div>
+                <div class="conteudo-contato">
+                    <img src="assets/icones/github.png" alt="icone github">
+                    <a href="https://github.com/Adam-Freire" target="_blank">
+                        <p>GitHub</p>
+                    </a>
+                </div>
+            </div>
+        <p class="copy esconder">&copy; 2023 <a href="https://www.linkedin.com/in/adam-freire-6a2755239
+            " target="_blank">Adam.Freire</a> Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
